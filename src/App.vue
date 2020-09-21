@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nasa></nasa>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Nasa from './components/Nasa'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    Nasa
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #dd0f13;
   margin-top: 60px;
+  background:url('https://eus-www.sway-cdn.com/s/ujAWagQ9KE5I89Ga/images/Dfm6RgPmpR40NI?quality=480&allowAnimation=true');
+  background-position:bottom;
+  font-family: 'Grandstander', cursive;
+
+  
+  background-repeat: cover;
 }
 </style>
